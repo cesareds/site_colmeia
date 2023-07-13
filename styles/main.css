@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(255,204,47);
+    background-image:url("../media/Pattern/pattern.png");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(255, 204, 47);
+    background-image: url("../media/Logotipo/horizontal-branco-teste.png");
+}
+h2.hierarchy{
+    text-align: center;
+
+}
+
+
+.container img{
+  float: left;
+  width: 500px;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.hardwareProjects{
+  overflow: auto;
+}
+.hardwareProjects img{
+  float: left;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.hardwareProjects img:hover{
+  float: left;
+  width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.softwareProjects{
+  overflow: auto;
+}
+.softwareProjects img{
+  float: left;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.softwareProjects img:hover{
+  float: left;
+  width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.communicationProjects{
+  overflow: auto;
+}
+.communicationProjects img{
+  float: left;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.communicationProjects img:hover{
+  float: left;
+  width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+/* para funcionar o menu com botoes e dropdown (precisa de um cleancode) */
+.button, .dropbtn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 204, 47);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.button:hover, .dropbtn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 204, 47);
+}
+
+#menu {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 1px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#menu li, .dropdown {
+  display: inline-block;
+  padding: 10px;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 204, 47);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown_content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+  
+/* para redes sociais do canto */
+.whatsapp img{
+  width: 100px;
+  height: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.instagram img{
+  width: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 120px;
+}
+.telegram img{
+  width: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 160px;
+}
+
+
+/* para fotos de membros */
+div.photo{
+    display: inline-flex;
+    padding: max(50px, 1vw);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    width: 100px;
+}
+div.photo img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 204, 47, 0.2);
+}
+div.desc{
+    text-align: center;
+}
+
